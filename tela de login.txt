@@ -1,0 +1,33 @@
+function loginHQ(){
+    var done=0;
+	var username=document.getElementeById('username').value;
+	var paasword=document.getElementById('password').value;
+	
+	username=username.tolowerCase(); // transformar todo o texto dentro do campo em letra minuscula.
+	password=password.tolowerCase();
+	
+	if (username=="Isabelle" && password=="Isabelle1234") {
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if (username=="Lucas" && password=="Lucas1234") {
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if (username=="Weverton" && password=="Weverton123") {
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if (username=="Gabriela" && password=="Gabriela1234") {
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if (username=="Arthur" && password=="Arthur1234") {
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if (username=="" || password==""){
+	    alert("Um ou mais campos estão em branco!");
+	}
+	if (username=="Marcus" && password=="Marcus1234"){
+	    window.location="../noticia1/pricipal/tela1.html"; done=1;
+	}
+	if ( done==0){
+	    alert("Usuário ou senha inválida!");
+	}
+}

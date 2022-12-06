@@ -1,0 +1,14 @@
+body{
+    background-image: url(nem.jpg);
+	background-repeat: no-repeat;
+	background-size; cover ;
+{
+.oii{
+    text-align: center;
+	border: 10px solid;
+	padding: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	border-bottom:-4px ;
+}
